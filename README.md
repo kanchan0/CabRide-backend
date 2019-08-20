@@ -4,7 +4,9 @@
 # CabRide-api-backend
 
 
-###### remember this a beckend project,to see all the main and used files open Backend folder and there you go.
+## Remember this a beckend project,to see all the main files,open Backend folder and there you go.
+### Do ignore folder client as in MVC structure,for all the frontend files it is used
+
 ### To install the all packages run the below command: 
 
 npm install 
