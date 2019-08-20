@@ -1,0 +1,52 @@
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <!-- Bootstrap -->
+    <link href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel = "stylesheet">
+    
+    <title> Login Page</title>
+  </head>
+  <body class="text-center">
+    <div class="container">
+        <table>
+            <form method="post" action="/login">
+              <h1>Please Login</h1>
+              <tr>
+             <td><label for="inputName">Name</label></td>
+             <td>
+               <input type="text" id="inputName" name="name"  placeholder="Enter your name" required autofocus/>
+              </td>
+             </tr>
+              <tr>
+                <td><label for="inputPassword">Password</label></td>
+                <td>
+                  <input type="password" id="inputPassword" name="password" placeholder="Password" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button  type="submit">
+                    Sign in
+                  </button>
+                </td>
+              </tr>
+            </form>
+            <!--  Navigate to signin page -->
+            <form action='/signup' method='get'>
+             <tr>
+               <td>
+                  <button>SignUp</button>
+               </td>
+             </tr>
+            </form>
+          </table>
+    </div>
+    
+  </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+</html>
