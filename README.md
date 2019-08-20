@@ -1,3 +1,6 @@
+##### 
+## :heart: Star :heart: the repo to support the project or :smile:Thanks!
+
 # CabRide-api-backend
 
 ### To install the all packages run the below command: 
